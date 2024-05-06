@@ -1,7 +1,13 @@
+import SideBar from "./components/SideBar";
+import ProjectBody from "./components/ProjectBody";
+import AddProject from "./components/AddProject";
+
 function App() {
   return (
     <>
-      <h1 className="my-8 text-center text-5xl font-bold">Hello World</h1>
+      <SideBar/>
+      {/*<ProjectBody title="Learn React" date="October 29, 2024" text="This would be my text"/>*/}
+      <AddProject/>
     </>
   );
 }
